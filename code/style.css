@@ -58,7 +58,7 @@
     
     .title-logo{
         position: absolute;
-        left: 3%;
+        left: 2.5%;
     }
     
     .nav-container{
@@ -93,6 +93,8 @@
     
     }
     
+    /* sheesh */
+
     .left-list{
         display:flex;
         align-items: center;
