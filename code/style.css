@@ -74,7 +74,15 @@ html{
     }
 }
 
-
+.learn-more{
+    font-family: var(--epilogue);
+    padding: 15px 25px;
+    border-radius: 15px;
+    border:none;
+    cursor:pointer;
+    background-color: var(--black);
+    color: var(--white);
+}
 
 @media all and (min-width: 1024px){
     .burger-menu{
