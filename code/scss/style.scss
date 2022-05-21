@@ -1,0 +1,20 @@
+@use 'mobile.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+:root{
+    $white: hsl(0, 0%, 98%);
+    $med-gray: hsl(0, 0%, 41%);
+    $black: hsl(0, 0%, 8%);
+
+    $epilogue: 'Epilogue', sans-serif;
+}
+

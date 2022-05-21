@@ -1,0 +1,67 @@
+@use 'style.scss';
+
+@media all and (max-width: 1023px){
+    .desktop-view{
+        display:none;
+    }
+    
+    .nav{
+        padding: 30px 20px 10px 20px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .title-logo{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100%;
+    }
+    
+    .title-logo button{
+        border:none;
+        margin-right: 0px;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .burger-menu:hover{
+        cursor:pointer;
+    }
+
+    .mobile-hero{
+        padding-bottom: 40px;
+    }
+
+    .text-content{
+        text-align: center;
+    }
+
+    .text-content h1{
+        font-family: var(--epilogue);
+        font-weight: 700;
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+
+    .text-content p{
+        font-family: var(--epilogue);
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 25px;
+        color: var(--med-gray);
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+}
+
+.learn-more{
+    font-family: var(--epilogue);
+    padding: 15px 25px;
+    border-radius: 15px;
+    border:none;
+    cursor:pointer;
+    background-color: var(--black);
+    color: var(--white);
+}
